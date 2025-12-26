@@ -110,7 +110,7 @@ def copy_files(src_dir, dest_dir, file_extension, max_workers=3, timeout_seconds
 
 
 def main():
-    src_dir = "/Users/trungnt13/Library/CloudStorage/GoogleDrive-trungnt13@gmail.com/My Drive/Zotero"
+    src_dir = "/Users/trungnt13/Downloads/Zotero"
     dst_dir = "/Users/trungnt13/Downloads/zotero_pdfs"
     _, _, _ = copy_files(src_dir, dst_dir, ".*", timeout_seconds=30)
 
